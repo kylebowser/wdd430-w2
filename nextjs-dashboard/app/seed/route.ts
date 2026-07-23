@@ -1,3 +1,7 @@
+export async function GET() {
+  return Response.json({ message: "Seed route disabled" });
+}
+
 // import bcrypt from 'bcrypt';
 // import postgres from 'postgres';
 // import { invoices, customers, revenue, users } from '../lib/placeholder-data';
